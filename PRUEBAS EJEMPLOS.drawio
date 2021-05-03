@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-24T23:13:32.470Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="o77RcngS_9BpBOBjkxuj" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-03T12:36:40.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="vQRN42qtzjYFtAeN_mEZ" version="14.6.9" type="github">
   <diagram id="9iH1GDS7d21fXzMfo_QB" name="Page-1">
-    <mxGraphModel dx="1312" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="862" dy="1281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -185,6 +185,46 @@
         </mxCell>
         <mxCell id="FzRhwLoGFBnfBMVeQvqv-72" value="Un GRUPO tiene 1 o muchos afiliados" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="455" y="1480" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fA-ctwTwgoneMCR4kvA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.357;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8fA-ctwTwgoneMCR4kvA-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="134.95000000000005" y="12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8fA-ctwTwgoneMCR4kvA-2" value="A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fA-ctwTwgoneMCR4kvA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8fA-ctwTwgoneMCR4kvA-5" target="8fA-ctwTwgoneMCR4kvA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8fA-ctwTwgoneMCR4kvA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8fA-ctwTwgoneMCR4kvA-5" target="8fA-ctwTwgoneMCR4kvA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8fA-ctwTwgoneMCR4kvA-5" value="Participar" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-130" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8fA-ctwTwgoneMCR4kvA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.717;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8fA-ctwTwgoneMCR4kvA-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="623.31" y="39.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8fA-ctwTwgoneMCR4kvA-7" value="B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8fA-ctwTwgoneMCR4kvA-8" value="1:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="-170" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fA-ctwTwgoneMCR4kvA-9" value="(0,M)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fA-ctwTwgoneMCR4kvA-10" value="(0,1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-140" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fA-ctwTwgoneMCR4kvA-11" value="B PUEDE PARTICIPAR 0 O M A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="10" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8fA-ctwTwgoneMCR4kvA-13" value="EN A PUEDEN&amp;nbsp; PARTICIPAR cero o 1 B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="495" y="40" width="230" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
